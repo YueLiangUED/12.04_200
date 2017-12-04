@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/mobiscroll_date.css">
+    <link rel="stylesheet" href="css/mobiscroll.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section>
+    <div></div>
+    <p>移动光宽带200M</p>
+    <p>¥<span id="price">1680</span>/<i id="dd">年</i></p>
+</section>
+<section>
+    <p>促销</p>
+    <ul>
+        <li><span>线上加赠</span>爱家宽带一次性赠送3-4GB流量</li>
+        <li><span>专属优惠</span>移动号码承诺指定4G套餐享宽带折扣低至0折</li>
+        <li><span>折扣秒杀</span>只办宽带折扣秒杀，请到北京移动客户端办理</li>
+    </ul>
+</section>
+<section>
+    <div id="bl_lx">
+        <p>办理类型</p>
+        <ul class="clear">
+            <li class="active">只办宽带</li>
+            <li>承诺套餐宽带折扣方案</li>
+        </ul>
+    </div>
+    <div id="tc_lx">
+        <p>套餐类型</p>
+        <ul class="clear">
+            <li class="active">1年</li>
+            <li>2年</li>
+            <li id="last">3年</li>
+        </ul>
+    </div>
+    <div id="tc_dw">
+        <p>承诺套餐档位</p>
+        <ul class="clear">
+            <li id="_288" class="active">288元档</li>
+            <li id="_58">58元档</li>
+            <li id="_88">88元档</li>
+            <li id="_128">128元档</li>
+            <li id="_158">158元档</li>
+            <li id="_238">238元档及以上</li>
+        </ul>
+    </div>
+</section>
+<section>
+    <p>快速预约</p>
+    <p>北京市</p>
+    <select>
+        <option value="" selected>请选择区县</option>
+        <option value="">东城区</option>
+        <option value="">西城区</option>
+        <option value="">朝阳区</option>
+        <option value="">海淀区</option>
+        <option value="">丰台区</option>
+        <option value="">大兴区</option>
+        <option value="">怀柔区</option>
+        <option value="">昌平区</option>
+        <option value="">顺义区</option>
+        <option value="">通州区</option>
+        <option value="">石景山区</option>
+        <option value="">房山区</option>
+        <option value="">平谷区</option>
+        <option value="">密云县</option>
+        <option value="">延庆县</option>
+        <option value="">门头沟区</option>
+    </select>
+    <input type="text" placeholder="请输入小区名或村名">
+    <input type="text" placeholder="请输入楼号">
+    <input type="text" placeholder="请输入单元">
+    <input type="text" placeholder="楼号、房号或门牌号">
+    <p>例如:广渠门内大街安化北里小区10号院10号楼105室<br>具体地址能否安装，及业务规则是否符合办理条件，以工作人员确认为准，如不符合安装及办理条件订单自动取消，届时将短信通知您。</p>
+</section>
+<section>
+    <form action="">
+        <label for="">报装人姓名：</label>
+        <input id="name_1" type="text">
+    </form>
+    <form action="">
+        <label for="">报装人手机号：</label>
+        <input id="tel_1" type="text">
+    </form>
+    <input id="ck_1" type="checkbox" checked><label>同时做为上门装机联系人</label>
+</section>
+<section>
+    <form action="">
+        <label for="">期望安装时间：</label>
+        <input id="USER_AGE" type="text" placeholder="请选择期望安装时间" readOnly="readOnly" disalbed editable="false">
+    </form>
+    <form action="">
+        <label for="">期望时间段：</label>
+        <select name="" id="">
+            <option value="" selected>请选择期望时间段</option>
+            <option value="">上午(9:00-11:00)</option>
+            <option value="">中午(11:00-13:00)</option>
+            <option value="">下午(13:00-17:00)</option>
+            <option value="">傍晚(17:00-20:00)</option>
+        </select>
+    </form>
+    <span>实际上门安装时间请以安装人员沟通为准。</span>
+</section>
+<section>
+    <form action="">
+        <label for="">联系人：</label>
+        <input id="name_2" type="text">
+    </form>
+    <form action="">
+        <label for="">联系号码：</label>
+        <input id="tel_2" type="text">
+    </form>
+</section>
+<section>
+    <p>支付方式：</p>
+    <span>上门支付</span>
+    <p>工程师上门安装完成后支付宽带费用。</p>
+    <input id="ck_2" type="checkbox"><label for="">已详细阅读产品介绍，业务规则及温馨提示相关内容。</label>
+    <a id="btn" href="">立即办理</a>
+</section>
+<section>
+    <ul id="tab" class="clear">
+        <li class="active">产品介绍</li>
+        <li>业务规则</li>
+        <li>温馨提示</li>
+    </ul>
+    <div class="active">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div>
+        <h3>一、“只办宽带”相关业务规则</h3>
+        <p>1、报装号码为北京移动已办理实名制或实名登记号码的，默认开通手机号绑定宽带账号业务，绑定后在宽带使用期内手机号码不可以办理销户、转户、分户、合户、无法办理携号转品牌业务。手机号码欠费停机，则家庭宽带业务次月停机；手机账户恢复时，宽带业务同时恢复。</p>
+        <p>2、报装号码为北京移动非实名号码或其他运营商号码时，请尽量提供北京移动手机号作为联系号码，否则部分促销活动赠送的话费将无法获得返还。</p>
+        <p>3、报装号码为北京移动非实名号码或其他运营商号码时，如赠送或办理互联网电视业务的，需提供北京移动号码作为联系号码，以作为开通互联网电视业务的关联号码。</p>
+        <h3>二、“承诺套餐宽带折扣方案”（即下称“爱家宽带”）相关业务规则</h3>
+        <p>1、仅限北京移动全球通、动感地带、神州行升级版标准卡、神州行畅听卡、神州行家园卡、神州行5元卡，并且已办理实名制或实名登记及指定4G套餐的客户办理。</p>
+        <p>2、客户在办理方案时，要求下月生效的主套餐为指定4G套餐并且满足办理方案的承诺档位（该档位为最低消费），如不满足，将不能办理该档方案。指定4G套餐包括4G飞享系列套餐、88商旅系列套餐、和4G套餐系列套餐、和4G集团套餐、和4G公务套餐等。承诺期内客户可以在指定套餐系列且不低于承诺档位范围变更手机主套餐业务，如将4G飞享套餐88档变更为和4G套餐128档。</p>
+        <p>3、<span>爱家宽带与承诺套餐存费送费、4G套餐送话费、可选包送话费、88商旅套餐年包、88商旅套餐半年包等业务无法同时办理；</span>与其他承诺套餐业务可以同时办理，承诺档位为就高原则。</p>
+        <p>4、同一手机号码，仅能办理一次爱家宽带；手机号码处于套餐不匹配（参见第2点说明）、停机、保留期等非正常状态时，无法办理爱家宽带方案。电话确认后到宽带安装成功前，客户不可对该业务做任何调整，比如取消、变更等。若宽带安装不成功，则该业务自动失效，客户可以办理手机基础套餐的变更。</p>
+        <p>5、爱家宽带月费通过承诺手机号码账号进行收费（不单独开具发票）。安装成功后如果承诺手机号码欠费停机，则家庭宽带业务次月停机。手机账户恢复时，庭宽带业务同时恢复，已办理爱家宽带承诺期不变。协议期内，若手机号码处于停机状态，暂时不执行欠费销号规则，仍会正常按月最低承诺消费金额出账，且预存费用正常返还。承诺期内，承诺手机号码不可以办理销户、转户、分户、合户等业务。以手机号码作为宽带账号办理爱家宽带方案的客户，承诺期内无法办理携号转品牌业务。</p>
+        <p>6、爱家宽带需缴纳300元预存款的，300元预存款自宽带安装成功且完成回款次月开始，根据承诺期进行分月返还，承诺期为12月的每月返还25元，承诺期为24个月的每月返还12.5元；预存返还至专用账户中（专用账户金额不可退、不可转，且无法抵扣"通信账户支付业务"、"话费支付业务" 的信息费）；三、四、五星级客户办理爱家方案免交300元预存款，亦无对应话费返还。</p>
+        <p>7、承诺套餐38元承诺档位仅允许宽带安装地址在郊区的客户办理。郊区指除东城区、西城区、朝阳区、海淀区、丰台区、石景山区以外的北京市行政区域。</p>
+        <p>8、办理了爱家方案50M/100M带宽档位，可免费获赠同期互联网电视业务收视服务，并免费获赠互联网电视机顶盒一台，互联网电视业务在宽带完成回款当月生效，优惠时间同爱家宽带承诺周期。</p>
+        <p>9、由于爱家宽带为优惠资费，您办理爱家宽带方案后，承诺期内无法取消。到期后，若您未办理任何续费产品，宽带将自动停机。</p>
+        <p>更多活动详情，请您咨询北京移动在线客服。</p>
+    </div>
+    <div>
+        <h3>一、当期新装优惠活动说明</h3>
+        <p>活动一：58元档以上套餐办理爱家赠送万能副卡两张，用户可通过提交宽带订单后自动跳转至万能副卡领取页面。</p>
+        <p>活动二：2017年10月27日至12月31日办理爱家宽带一年期一次性赠送3GB本地流量，两年期赠送4GB本地流量。线上办理加赠流量（其它渠道办理无法获赠）为一次性赠送，将在宽带安装成功次月月底前，通过北京移动微信公众号下发，客户需使用报装手机号关注并绑定北京移动公众号，待流量下发后领取。流量领取当月有效，不可共享，不可结转。</p>
+        <h3>二、其他办理说明</h3>
+        <p>1、您可通过北京移动线上渠道按提示自助办理宽带报装，报装提交会有工作人员与您联系确认安装详细信息，如经核实后您的报装地址尚未覆盖移动光宽带或不具备安装条件，或由于其他业务规则导致无法线上报装，工作人员为您取消报装。如确定您的报装地址已覆盖移动光宽带的，将安排工作人员为您进行上门安装，但由于影响安装的因素很多，实际安装结果仍以最后上门确认为准。请您谅解。</p>
+        <p>2、单位户（即客户姓名为***公司）线上无法办理，用户需持公司介绍信及相关手续到营业厅办理。</p>
+        <p>3、安装成功时您需缴纳相关费用，非实名或其他运营商号码报装的，需提供报装时登记的身份证原件和复印件。若宽带安装不成功，报装业务自动失效，预收的宽带费用全额退还。</p>
+        <p>4、新装机客户在宽带安装成功当月宽带免费使用，从安装的次月开始计费。爱家宽带业务的新装机客户，在宽带安装成功完成回款的下月生效，生效后需按约定完成承诺并支付宽带月费。互联网电视业务在宽带完成回款当月生效。</p>
+        <p>5、一年套餐、两年套餐、三年套餐及承诺套餐宽带折扣方案均属于优惠促销资费，开通后无法退费。宽带到期后，如客户没有办理任何续费产品，宽带将自动停机。</p>
+        <p>6、移动宽带产品的接入速率均指下行速率。理论上宽带的上、下行速率如下表。因速率与访问内容、所处互联网位置、路由情况、访问网站本身的网速性能等均有关系，任何一个环节都会影响速率。</p>
+        <i></i>
+        <p>更多家庭宽带档位、业务详情，请点击进入<a href="">家庭宽带</a>。 如还有疑问，请您咨询北京移动在线客服。</p>
+    </div>
+</section>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/mobiscroll_date.js" charset="utf-8"></script>
+<script src="js/mobiscroll.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var currYear = (new Date()).getFullYear();
+        var opt={};
+        opt.date = {preset : 'date'};
+        opt.datetime = {preset : 'datetime'};
+        opt.time = {preset : 'time'};
+        opt.default = {
+            theme: 'android-ics light', //皮肤样式
+            display: 'modal', //显示方式
+            mode: 'scroller', //日期选择模式
+            dateFormat: 'yyyy-mm-dd',
+            lang: 'zh',
+            showNow: true,
+            nowText: "今天",
+            startYear: currYear - 0, //开始年份
+            endYear: currYear + 100, //结束年份
+            minDate: new Date()
+        };
+
+        $("#USER_AGE").mobiscroll($.extend(opt['date'], opt['default']));
+
+    });
+</script>
